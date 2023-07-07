@@ -103,7 +103,16 @@ border-radius: 50%;
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 4s;
 }
+
+.ex-9-img:hover {
+    filter: hue-rotate(.4) grayscale(.6);
+    border-radius: 40px;
+    margin: 100px 100px;
+    width: 200px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
